@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="todo-bg-container d-flex flex-row justify-content-center align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="todo-container">
+                        <div class="d-flex justify-content-center">
+                            <h1 class="todo-heading">To-Do List</h1>
+                            <img src="https://i.pinimg.com/564x/f3/7d/ce/f37dce61c50136e8f7ee1f5fc46d47db.jpg" class="image-1" />
+                        </div>
+                        <div class="search-button">
+                            <input type="text" class="search-bar" placeholder="Add Your Task" id="userTodoInput" />
+                            <button class="button_item" id="onAddTodoButton">ADD</button>
+                        </div>
+                        <div>
+                            <h1 class="task-heading pt-3">Tasks</h1>
+                        </div>
+                        <ul class="todo-items-container" id="todoItemsContainer">
+                            <!--<li class="d-flex flex-row text-left todo-item-container">
+                                <input type="checkbox" class="checkbox-input "/>
+                                <div class="d-flex flex-row label-container">
+                                    <label class="checkbox-label">Learn HTML</label>
+                                    <div class="delete-icon-container">
+                                        <i class="fas fa-edit"></i>
+                                        <i class="fas fa-times delete-icon"></i>
+                                    </div>
+                                </div>
+                                
+                                
+                            </li>-->
+                        </ul>
+                        <button class="button_item mt-4" id="saveTodoButton">Save</button>
+                        <button id="clearAllButton" class="button_item ">Clear All</button>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src = "index.js"/>
+</body>
+
+</html>
