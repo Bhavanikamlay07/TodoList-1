@@ -80,6 +80,7 @@ function onEditTodoItem(todoId) {
     if (newText === null || newText.trim() === "") {
         return; // If canceled or empty, do nothing
     }
+    
 
     labelElement.textContent = newText;
 
